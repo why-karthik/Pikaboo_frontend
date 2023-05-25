@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Login PIKABOO</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous"> 
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./utils.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class = "top">
+                    <div class = "top-bottom">
+                        <ul class = "flex">
+                            <li class="logo">PIKABOO</li>
+                        </ul>
+                    </div>        
+                </div>
+            </nav>
+        </header>
+        <div class="user flex">
+            <div class="sign-up flex">
+                <h2>SIGN-UP</h2>
+                <form class="log-in flex">
+                    <div class="form-group">
+                      <label for="first-name">Name:</label>
+                      <input type="text" id="first-name" name="first-name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                  
+                    <div class="form-group">
+                      <label for="username">Username:</label>
+                      <input type="text" id="username" name="username">
+                    </div>
+                  
+                    <div class="form-group">
+                      <label for="password">Password:</label>
+                      <input type="password" id="password" name="password">
+                    </div>
+                  
+                  
+                    <button type="submit">Sign Up</button>
+                  </form>
+                  
+            </div>
+            <div class="log-in flex"> 
+                <h2> Already Have an Account Log-in</h2>
+                <form class="log-in flex">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                  
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                  
+                    <button type="submit">Log in</button>
+                  </form>   
+            </div>
+            
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    </body>
+</html>
